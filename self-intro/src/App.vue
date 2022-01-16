@@ -1,5 +1,5 @@
 <template>
-  <img alt="Vue logo" src="./assets/img/popotogis.jpg">
+  <img class="popotogisLogo" src="./assets/img/popotogis.jpg" width="200" height="200"/>
   <Profile/>
 </template>
 
@@ -20,8 +20,12 @@ export default defineComponent({
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* text-align: center; */
+  img{
+    width: 30px;
+    height: 30px;
+  }
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 30px;
+  margin-left: 30px;
 }
 </style>
